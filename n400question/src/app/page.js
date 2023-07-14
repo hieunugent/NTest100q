@@ -1,5 +1,9 @@
 import test from "./test.json"
 console.log(test)
+let questions=[]
+Object.keys(test.data).map((item)=>(
+    questions.push(item)
+))  
 export default function Home() {
   return (
     <div>
@@ -7,9 +11,8 @@ export default function Home() {
       {Object.keys(test.data).map((item, i)=> (
         <li key={i}>
           <span >Key name :{item}</span>
-          
-        </li>
-        
+          <h1> {questions[i]}</h1>
+        </li> 
       ))}
     </div>
 
