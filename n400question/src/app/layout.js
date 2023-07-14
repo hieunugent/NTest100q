@@ -1,4 +1,4 @@
-import Contact from "./secondpage"
+import Contact from "./cards"
 
 
 

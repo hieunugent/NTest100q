@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.card {
+    background-color: cornsilk;
+    border: 1;
+    border-color: black;
+}
